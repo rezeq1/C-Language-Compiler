@@ -2,6 +2,10 @@ A simple Compiler for c language .The compiler contains a parser , scanner,seman
 
 Run instruction:
     Run this commands in Linux terminal
+    
         lex myScanner.l 
+        
         yacc myParser.y -d 
+        
         cc symbol.c lex.yy.c y.tab.c -o compiler -ll
+        
